@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roteiro de Viagem: Orlando & Miami</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #e5e7eb;
+        }
+        @keyframes gradient-move {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .hero {
+            background-image: linear-gradient(-45deg, #1d4ed8, #60a5fa, #c7d2fe);
+            background-size: 400% 400%;
+            animation: gradient-move 15s ease infinite;
+            min-height: 50vh;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        .card-image {
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+        }
+        .animate-up:hover .card-image {
+            transform: scale(1.05);
+            filter: brightness(0.9);
+        }
+        .animate-up {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        .animate-up:hover {
+            transform: translateY(-8px) rotate(-1deg);
+            box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.15), 0 6px 10px -5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Hero Section -->
+    <header class="hero text-white flex flex-col justify-center items-center text-center p-8 rounded-b-3xl">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4 animate-pulse">Roteiro de Viagem</h1>
+        <p class="text-xl md:text-2xl font-semibold mb-6">Orlando & Miami - 08 a 20 de Março de 2026</p>
+        <p class="text-lg max-w-2xl font-light">Prepare-se para uma aventura inesquecível, cheia de magia, compras e praias paradisíacas!</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <!-- Seção Orlando -->
+        <section id="orlando" class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-indigo-700 mb-10 mt-8">
+                Orlando <span class="text-gray-500 text-2xl">(08/03/2026 a 16/03/2026)</span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Dia 1: Chegada em Miami e Viagem para Orlando -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=Estrada+para+Orlando" alt="Imagem da estrada para Orlando" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 1: Chegada em Miami e Viagem para Orlando (08/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Chegada no Aeroporto Internacional de Miami (MIA), retirada do carro alugado e viagem de carro para Orlando. Check-in no hotel e jantar para descansar.</p>
+                    <p class="font-semibold">Endereço (MIA):</p>
+                    <p class="text-sm text-gray-500">2100 NW 42nd Ave, Miami, FL 33126</p>
+                    <p class="font-semibold mt-2">Dica:</p>
+                    <p class="text-sm text-gray-500">A viagem de carro leva aproximadamente 3h30-4h.</p>
+                </div>
+
+                <!-- Dia 2: Magic Kingdom -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=Magic+Kingdom" alt="Imagem do Castelo da Cinderela no Magic Kingdom" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 2: Magic Kingdom (09/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Dia inteiro no parque mais mágico da Disney. Não perca o show de fogos!</p>
+                    <p class="font-semibold">Endereço:</p>
+                    <p class="text-sm text-gray-500">1180 Seven Seas Dr, Lake Buena Vista, FL 32830</p>
+                    <p class="font-semibold mt-2">Dica:</p>
+                    <p class="text-sm text-gray-500">Use o app da Disney para Genie+ e tempo de espera.</p>
+                </div>
+
+                <!-- Dia 3: Compras e Churrasco -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=Compras+e+Walmart" alt="Imagem de um carrinho de compras em um supermercado" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 3: Compras e Churrasco (10/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Compras de mercado para o churrasco no Walmart e depois outlet.</p>
+                    <p class="font-semibold">Walmart Supercenter:</p>
+                    <p class="text-sm text-gray-500">2855 N Old Lake Wilson Rd, Kissimmee, FL 34747</p>
+                    <p class="font-semibold mt-2">Outlet:</p>
+                    <p class="text-sm text-gray-500">Orlando International Premium Outlets</p>
+                </div>
+                
+                <!-- Dia 4: Universal Studios Florida -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=Universal+Studios" alt="Imagem do globo da Universal Studios" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 4: Universal Studios Florida (11/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Mergulhe no mundo do cinema com atrações de Harry Potter, Minions e mais.</p>
+                    <p class="font-semibold">Endereço:</p>
+                    <p class="text-sm text-gray-500">6000 Universal Blvd, Orlando, FL 32819</p>
+                    <p class="font-semibold mt-2">Dica:</p>
+                    <p class="text-sm text-gray-500">Explore o Beco Diagonal e o CityWalk à noite.</p>
+                </div>
+
+                <!-- Dia 5: Descanso e Compras -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=The+Florida+Mall" alt="Imagem de um shopping center" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 5: Descanso e Compras (12/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Dia mais tranquilo para compras e explorar a cidade. Visite Winter Park e The Florida Mall.</p>
+                    <p class="font-semibold">The Florida Mall:</p>
+                    <p class="text-sm text-gray-500">8001 S Orange Blossom Trail, Orlando, FL 32809</p>
+                </div>
+                
+                <!-- Dia 6: Volcano Bay -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=Volcano+Bay" alt="Imagem do vulcão de Volcano Bay" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 6: Volcano Bay (13/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Dia de diversão no parque aquático da Universal, perfeito para relaxar e se refrescar.</p>
+                    <p class="font-semibold">Endereço:</p>
+                    <p class="text-sm text-gray-500">6000 Universal Blvd, Orlando, FL 32819</p>
+                    <p class="font-semibold mt-2">Dica:</p>
+                    <p class="text-sm text-gray-500">Use a pulseira TapuTapu para as filas.</p>
+                </div>
+                
+                <!-- Dia 7: Islands of Adventure -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=Islands+of+Adventure" alt="Imagem do Islands of Adventure" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 7: Islands of Adventure (14/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Curta as montanhas-russas radicais e o mundo de Harry Potter.</p>
+                    <p class="font-semibold">Endereço:</p>
+                    <p class="text-sm text-gray-500">6000 Universal Blvd, Orlando, FL 32819</p>
+                </div>
+
+                <!-- Dia 8: Viagem para Miami -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=Viagem+para+Miami" alt="Imagem da skyline de Miami" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 8: Viagem para Miami (15/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Últimas compras em Orlando e viagem de carro para Miami. Jantar com culinária cubana.</p>
+                    <p class="font-semibold">Restaurante:</p>
+                    <p class="text-sm text-gray-500">Versailles Restaurant, 3555 SW 8th St, Miami, FL 33135</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Separador -->
+        <hr class="my-16 border-t-2 border-indigo-300">
+
+        <!-- Seção Miami -->
+        <section id="miami" class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-indigo-700 mb-10">
+                Miami <span class="text-gray-500 text-2xl">(16/03/2026 a 20/03/2026)</span>
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Dia 9: South Beach -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=South+Beach" alt="Imagem de South Beach" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 9: South Beach (16/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Passeio pela Ocean Drive e relaxamento em South Beach. Compras na Lincoln Road.</p>
+                    <p class="font-semibold">Restaurante:</p>
+                    <p class="text-sm text-gray-500">Joe's Stone Crab, 11 Washington Ave, Miami Beach, FL 33139</p>
+                </div>
+
+                <!-- Dia 10: Cultura e Arte -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=Wynwood+Walls" alt="Imagem de arte de rua em Wynwood Walls" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 10: Cultura e Arte (17/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Explore a arte de rua em Wynwood Walls e a vibrante cultura cubana em Little Havana.</p>
+                    <p class="font-semibold">Wynwood Walls:</p>
+                    <p class="text-sm text-gray-500">2516 NW 2nd Ave, Miami, FL 33127</p>
+                </div>
+
+                <!-- Dia 11: Compras e Lazer -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=Bayside+Marketplace" alt="Imagem do Bayside Marketplace" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 11: Compras e Lazer (18/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Shopping ao ar livre no Bayside Marketplace e no luxuoso Aventura Mall.</p>
+                    <p class="font-semibold">Bayside Marketplace:</p>
+                    <p class="text-sm text-gray-500">401 Biscayne Blvd, Miami, FL 33132</p>
+                </div>
+
+                <!-- Dia 12: Partida -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 animate-up">
+                    <img src="https://placehold.co/600x400/0071c2/ffffff?text=Partida+do+Aeroporto" alt="Imagem de um avião decolando do aeroporto" class="card-image w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-2">Dia 12: Partida (19/03)</h3>
+                    <p class="text-sm text-gray-600 mb-4">Último dia para compras ou passeios e partida do Aeroporto de Miami (MIA).</p>
+                    <p class="font-semibold">Voo de volta:</p>
+                    <p class="text-sm text-gray-500">Aeroporto Internacional de Miami (MIA)</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-8 mt-12 rounded-t-3xl">
+        <p>&copy; 2026 - Roteiro de Viagem Orlando & Miami. Desenvolvido para você.</p>
+    </footer>
+
+</body>
+</html>
